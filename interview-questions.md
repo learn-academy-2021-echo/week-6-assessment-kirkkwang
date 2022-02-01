@@ -45,25 +45,25 @@ Researched answer:
 4. Consider the Rails routes below. What is the name of the controller method that would be called by each route? What action would each of the controller methods perform?
 
 action: "GET" route: /students
-`index`
+`index` - returns all the entries in the students table
 
 action: "POST" route: /students
-`create`
+`create` - create a new instance in the BD table students
 
 action: "GET" route: /students/new
-`new`
+`new` - return a form that we will use to create a student
 
 action: "GET" route: /students/2
-`show`
+`show` - return an instance of the students table with the id of 2
 
 action: "GET" route: /students/2/edit
-`edit`
+`edit` - return a form where user can edit info of student_id 2
 
 action: "PATCH" route: /students/2
-`update`
+`update` - update instance of student_id 2
 
 action: "DELETE" route: /students/2
-`destroy`
+`destroy` - deletes the instance of student_id 2
 
 5. As a developer, you are making an application to manage your to do list. Create 10 user stories that will help you get your application started. Read more about [user stories](https://www.atlassian.com/agile/project-management/user-stories).
 
